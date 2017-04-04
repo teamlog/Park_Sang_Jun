@@ -1,0 +1,17 @@
+설치 링크 : https://git-for-windows.github.io/
+
+새로 설치했을때
+1. git config --global user.name "USERNAME"
+2. git config --global user.email "EMAIL"
+
+폴더 새로 만들었을때
+1. git init
+2. git remote add origin 복사한링크
+
+수시로 코드 변경사항 올릴때
+1. git add .
+2. git commit -m "변경사항"
+3. git push -u origin master
+
+코드 깃헙에서 받아올때
+1. git clone 복사한링크
